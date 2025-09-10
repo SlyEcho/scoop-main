@@ -11,6 +11,10 @@
         "64bit": {
             "url": "https://github.com/zigtools/zls/releases/download/0.15.1/zls-x86_64-windows.zip",
             "hash": "41b20c8e2952c95385ce316c3e8000178a6deb4857893f2f6d8078b1453c0f54"
+        },
+        "arm64": {
+            "url": "https://github.com/zigtools/zls/releases/download/0.15.1/zls-aarch64-windows.zip",
+            "hash": "46f7c224db4045e5948bbb0608313539343d46466030f8d253488a75b5aabd44"
         }
     },
     "bin": "zls.exe",
@@ -22,6 +26,9 @@
             },
             "64bit": {
                 "url": "https://github.com/zigtools/zls/releases/download/$version/zls-x86_64-windows.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/zigtools/zls/releases/download/$version/zls-aarch64-windows.zip"
             }
         }
     }
